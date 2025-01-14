@@ -1,0 +1,21 @@
+// Notes for Day 7
+
+ 
+1464: 241 1 2 1 6
+
+// Log to console
+console.log(696325 % 219)
+console.log(696106 % 1)
+console.log(696105 % 499)
+console.log(1393 % 199)
+console.log(7 % 7)
+
+// 1505880
+// List of values: 2 4 7 7 7 16 3 9 4 2 705
+
+// 
+// for start at the end, iterate to the front, present number is currentVal
+  // modulo operator currentVal with the total
+    // if the result isnt 0, subtract from the total
+    // otherwise, divide it, store new value as base
+  // move to the left one
